@@ -1,0 +1,59 @@
+a{
+    text-decoration: none;
+}
+
+.update{
+    color: rgb(45, 224, 39);
+    text-shadow: 2px 2px 6px #000;
+}
+.update:hover, .delete:hover {
+    color: #fff;
+}
+
+.delete {
+    color: #e65b5b;
+    text-shadow: 2px 2px 6px #000;
+}
+
+tr:nth-last-of-type(even) {
+    background-color: #63678d;
+    color: #fff;
+ }
+
+ tr:nth-last-of-type(odd) {
+    background-color: #a8abbe;
+    color: #fff;
+ }
+
+ tr{
+     box-shadow: 3px 3px 7px 3px #000;
+     
+ }
+
+ table{
+     width: 100%;;
+     text-shadow: 2px 2px 6px #000;
+ }
+ 
+ #page{
+     text-align: center;
+ }
+
+ #page a {
+    border: 1px solid #0e78ea;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #0e78ea;
+    
+ }
+
+ #page a:hover {
+    font-size: 1.5rem;
+    margin: auto;
+    box-shadow: 2px 2px 2px #414250;
+    background-color: #0e78ea;
+    color: #fff;
+ }
+
+
+
+ 
